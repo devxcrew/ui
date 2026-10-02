@@ -13,9 +13,9 @@ Privileged entry blocks always hide registration. The client block follows `regi
 The identifier uses a text input so browser email validation does not reject usernames.
 Development sign-in is disabled while a submission is pending.
 
-## Development records
+## Common guidance
 
-- [Browser acceptance repairs](../../../../../assist/records/platform/2026-09-10-identity-browser-acceptance.md)
+Read the [central UI guide](../../../../mcp-governance/assist/guides/ui.md).
 
 `LoginPage` provides two owned variants. Version 1 is a centered CODEXSUN entry card. Version 2
 uses a split card with provider actions and a supporting visual surface. `RegisterPage` provides

@@ -1,6 +1,6 @@
 # Execution Status
 
-Presentation-only block, version `1.1.0`, owned by `packages/ui`.
+Presentation-only block, version `1.1.0`, owned by `shared/ui`.
 Import `ExecutionStatus` from `@codexsun/ui/blocks/execution-status`.
 
 Applications supply `state`, `title`, `description`, `elapsed`, and labeled `metrics`.
@@ -18,8 +18,6 @@ The splash does not grant readiness or block API access. The owning application 
 The UIUX gallery demonstrates each state with explicitly labeled sample values.
 Zetro supplies observed task state and public snapshot counts.
 
-## Development records
+## Common guidance
 
-- [Startup readiness](../../../../../assist/records/zetro/2026-09-10-startup-readiness.md)
-
-- [Live execution visuals](../../../../../assist/records/zetro/2026-09-10-live-execution-visuals.md)
+Read the [central UI guide](../../../../mcp-governance/assist/guides/ui.md).
