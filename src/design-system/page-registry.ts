@@ -6,7 +6,7 @@ export const designSystemPages: readonly DesignSystemPageDefinition[] = [
     description: 'A presentation-only sign-in page with application-owned authentication.',
     id: 'login',
     name: 'Login',
-    source: '@codexsun/ui/blocks/auth',
+    source: '@devxcrew/react-ui/blocks/auth',
     variants: [
       {
         description: 'Centered CODEXSUN sign-in card for focused application entry.',
@@ -25,7 +25,7 @@ export const designSystemPages: readonly DesignSystemPageDefinition[] = [
     description: 'A presentation-only account registration page.',
     id: 'register',
     name: 'Register',
-    source: '@codexsun/ui/blocks/auth',
+    source: '@devxcrew/react-ui/blocks/auth',
     variants: [
       {
         description: 'Centered registration card for the standard account flow.',
@@ -44,7 +44,7 @@ export const designSystemPages: readonly DesignSystemPageDefinition[] = [
     description: 'A focused account-recovery page that does not disclose account existence.',
     id: 'forgot-password',
     name: 'Forgot Password',
-    source: '@codexsun/ui/blocks/auth',
+    source: '@devxcrew/react-ui/blocks/auth',
     variants: [
       {
         description: 'The package-owned account recovery page.',
@@ -58,7 +58,7 @@ export const designSystemPages: readonly DesignSystemPageDefinition[] = [
     description: 'A full-page notification inbox with application-owned records and actions.',
     id: 'notifications',
     name: 'Notifications Page',
-    source: '@codexsun/ui/blocks/notifications',
+    source: '@devxcrew/react-ui/blocks/notifications',
     variants: [
       {
         description: 'The package-owned notification inbox page.',

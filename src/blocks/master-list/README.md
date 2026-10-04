@@ -1,6 +1,6 @@
 # Master List
 
-`@codexsun/ui/blocks/master-list` exports `MasterList`, `MasterForm`, and their types.
+`@devxcrew/react-ui/blocks/master-list` exports `MasterList`, `MasterForm`, and their types.
 
 Define one `MasterField[]` for both the list and the form. Each record has a string `id`; other
 field values can be strings, numbers, booleans, or empty values. Set `showInList: false` for

@@ -2,13 +2,13 @@
 
 Own reusable React components, blocks, layouts, themes, and public exports.
 
-Use the sibling workspace layout. Shared framework and UI keep their existing public exports and
-build contracts.
+Applications consume the public package exports. Optional sibling sources support workspace development.
 
 ## Run
 
-Use Node 26.10 or newer and the package manifest requirements. Clone the sibling tools and
-mcp-governance repositories along with this repository.
+Use Node 26.10 or newer and the package manifest requirements.
+Maintenance commands use the installed public Tools package.
+Retrieve shared rules from the authenticated cloud MCP endpoint.
 
 ```powershell
 npm install
@@ -48,7 +48,7 @@ npm run mcp:verify
 ```
 
 Use `mcp:connect` to retrieve instructions. Use `mcp:verify` for a strict connection test.
-Connection failures do not block application work. Editor registration uses the central connection
+Connection failures block repository work. Editor registration uses the central connection
 template and depends on the editor.
 
 ## Maintenance
@@ -73,7 +73,38 @@ release version is already prepared.
 
 ## Tools source and publication
 
-Workspace maintenance delegates to `shared/tools`. The installed npm package remains pinned at
-`0.1.3` until agent changelog support is published.
+Workspace maintenance uses the installed public Tools package, pinned at 0.1.7.
+The source checkout does not require sibling maintenance wrappers.
 
 GitHub source releases use `github:now`. Npm publication requires separate authorization.
+
+## npm package
+
+UI publishes TypeScript/TSX source and CSS for Vite or another TypeScript-aware React bundler. React and React DOM remain peer dependencies. Native Node cannot execute these frontend exports directly.
+
+Run `npm run release:check`, then `npm publish --access public` from this repository.
+Only public exports are supported. App manifests use npm versions.
+
+## Identity ownership migration
+
+The next compatible foundation release removes SessionBoundary and the unused identity desk implementations.
+This is a breaking UI API change. Release preparation must select a new minor version while the package remains below 1.0.
+The current published package remains unchanged.
+
+Identity modules own authentication, sessions, resource schemas, API calls, navigation, and permission decisions.
+Use the public resource-view components for headers, tables, and feedback.
+Use the public login presentation components with the identity module's server-managed session flow.
+Do not recreate browser token storage or business resource implementations inside shared UI.
+
+
+## Local verification and upgrade
+
+Run `npm run release:check`. This compiles all source and 122 public JavaScript export paths.
+The package test suite checks rendering, status semantics, catalogs and reusable behavior.
+These checks do not establish keyboard or screen-reader acceptance.
+
+The proposed next release is 0.2.0. It removes legacy identity desk and SessionBoundary exports.
+Move authentication, permissions and resource workflows into the application or Platform owner.
+Use generic resource-view exports for presentation. Keep domain schemas and API calls in their module.
+Login password policies belong to the consuming module. Shared UI does not impose a password length.
+Version 0.1.7 in the registry remains unchanged until coordinated release approval.

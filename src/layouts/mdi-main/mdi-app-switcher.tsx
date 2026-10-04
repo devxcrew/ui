@@ -1,9 +1,9 @@
 import { CheckIcon, XIcon } from 'lucide-react'
 import { useState } from 'react'
 
-import { Button } from '@codexsun/ui/components/button'
-import { Popover, PopoverContent, PopoverTrigger } from '@codexsun/ui/components/popover'
-import { cn } from '@codexsun/ui/lib/utils'
+import { Button } from '@devxcrew/react-ui/components/button'
+import { Popover, PopoverContent, PopoverTrigger } from '@devxcrew/react-ui/components/popover'
+import { cn } from '@devxcrew/react-ui/lib/utils'
 import { TopologyMarker } from '../../features/interface-topology'
 
 import { mdiTopMenuButtonClassName } from './mdi-top-menu-control'

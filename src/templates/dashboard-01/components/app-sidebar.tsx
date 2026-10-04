@@ -29,7 +29,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from '@codexsun/ui/components/sidebar'
+} from '@devxcrew/react-ui/components/sidebar'
 
 const data = {
   user: {

@@ -2,7 +2,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@codexsun/ui/components/collapsible'
+} from '@devxcrew/react-ui/components/collapsible'
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -12,7 +12,7 @@ import {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-} from '@codexsun/ui/components/sidebar'
+} from '@devxcrew/react-ui/components/sidebar'
 import { ChevronRightIcon } from 'lucide-react'
 
 export function NavMain({

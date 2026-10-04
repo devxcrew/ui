@@ -8,7 +8,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from '@codexsun/ui/components/sidebar'
+} from '@devxcrew/react-ui/components/sidebar'
 
 export function NavSecondary({
   items,

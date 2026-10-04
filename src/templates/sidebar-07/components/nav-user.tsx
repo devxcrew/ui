@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from '@codexsun/ui/components/avatar'
+import { Avatar, AvatarFallback, AvatarImage } from '@devxcrew/react-ui/components/avatar'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -7,13 +7,13 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@codexsun/ui/components/dropdown-menu'
+} from '@devxcrew/react-ui/components/dropdown-menu'
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from '@codexsun/ui/components/sidebar'
+} from '@devxcrew/react-ui/components/sidebar'
 import {
   ChevronsUpDownIcon,
   SparklesIcon,

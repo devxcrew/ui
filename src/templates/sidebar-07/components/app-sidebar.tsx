@@ -12,7 +12,7 @@ import {
   SidebarFooter,
   SidebarHeader,
   SidebarRail,
-} from '@codexsun/ui/components/sidebar'
+} from '@devxcrew/react-ui/components/sidebar'
 import {
   GalleryVerticalEndIcon,
   AudioLinesIcon,

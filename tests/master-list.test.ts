@@ -61,7 +61,7 @@ test("master list registers four page versions", () => {
 test("desk master list renders quick filters and dense record controls", () => {
   const deskRecords = [{ id: "ENQ-1", name: "Laptop enquiry", customer: "Northstar", age: "2 w" }];
   const html = renderToStaticMarkup(
-    createElement(MasterListDesk, {
+    createElement(MasterListDesk<(typeof deskRecords)[number]>, {
       columns: [
         { id: "name", label: "Enquiry Details", render: (record: (typeof deskRecords)[number]) => record.name },
         { id: "customer", label: "Customer", render: (record: (typeof deskRecords)[number]) => record.customer },

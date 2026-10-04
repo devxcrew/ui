@@ -5,7 +5,7 @@ discover, select, and compose shared UI.
 
 ## Source of truth
 
-`@codexsun/ui/design-system` is the source of truth. The block, component, page, and template
+`@devxcrew/react-ui/design-system` is the source of truth. The block, component, page, and template
 registries define the available assets, their variants, and their public import paths. Do not copy
 registry entries into an application or into UIUX.
 
@@ -48,7 +48,7 @@ visual route or a contract preview.
 
 ## Agent composition workflow
 
-1. Discover the asset through MCP or `@codexsun/ui/design-system`.
+1. Discover the asset through MCP or `@devxcrew/react-ui/design-system`.
 2. Resolve the requested variant and inspect its public source path.
 3. Keep business data, routes, permissions, persistence, and workflows in the consuming application.
 4. Pass typed data and callbacks into the package-owned UI.

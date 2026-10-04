@@ -1,4 +1,4 @@
-import { cn } from '@codexsun/ui/lib/utils'
+import { cn } from '@devxcrew/react-ui/lib/utils'
 
 import { AgentActivityRail } from './agent-activity-rail'
 import type { AgentWorkspaceProps } from './agent-workspace.types'

@@ -1,11 +1,11 @@
-import { cn } from '@codexsun/ui/lib/utils'
-import { Button } from '@codexsun/ui/components/button'
+import { cn } from '@devxcrew/react-ui/lib/utils'
+import { Button } from '@devxcrew/react-ui/components/button'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@codexsun/ui/components/tooltip'
+} from '@devxcrew/react-ui/components/tooltip'
 
 import type { AgentWorkspaceRail, AgentWorkspaceRailItem } from './agent-workspace.types'
 

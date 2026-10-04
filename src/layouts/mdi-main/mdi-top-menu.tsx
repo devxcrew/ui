@@ -1,7 +1,7 @@
 import { MenuIcon, type LucideIcon } from 'lucide-react'
 
-import { Button } from '@codexsun/ui/components/button'
-import { useSidebar } from '@codexsun/ui/components/sidebar'
+import { Button } from '@devxcrew/react-ui/components/button'
+import { useSidebar } from '@devxcrew/react-ui/components/sidebar'
 import { TopologyMarker, TopologyRegion } from '../../features/interface-topology'
 
 import { MdiAppSwitcher } from './mdi-app-switcher'

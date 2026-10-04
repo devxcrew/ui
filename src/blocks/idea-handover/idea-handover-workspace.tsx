@@ -1,11 +1,11 @@
 import { useState, type ReactNode } from "react";
 import { ArchiveIcon, CheckCircle2Icon, CheckIcon, ChevronLeftIcon, CircleIcon, ClipboardIcon, EyeIcon, FileCheck2Icon, ListTodoIcon, NetworkIcon, PlusIcon, RefreshCwIcon, SendIcon, Trash2Icon, WandSparklesIcon } from "lucide-react";
-import { Button } from "@codexsun/ui/components/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@codexsun/ui/components/card";
-import { Input } from "@codexsun/ui/components/input";
-import { Label } from "@codexsun/ui/components/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@codexsun/ui/components/select";
-import { Textarea } from "@codexsun/ui/components/textarea";
+import { Button } from "@devxcrew/react-ui/components/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@devxcrew/react-ui/components/card";
+import { Input } from "@devxcrew/react-ui/components/input";
+import { Label } from "@devxcrew/react-ui/components/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@devxcrew/react-ui/components/select";
+import { Textarea } from "@devxcrew/react-ui/components/textarea";
 import { getBriefReadiness, isBriefReady, parseAcceptanceCriteria, serializeAcceptanceCriteria } from "./idea-handover-readiness";
 
 export type IdeaStage = "explore" | "compare" | "revise" | "final";

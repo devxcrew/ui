@@ -1,5 +1,5 @@
-import { Separator } from '@codexsun/ui/components/separator'
-import { SidebarTrigger } from '@codexsun/ui/components/sidebar'
+import { Separator } from '@devxcrew/react-ui/components/separator'
+import { SidebarTrigger } from '@devxcrew/react-ui/components/sidebar'
 
 export function SiteHeader() {
   return (

@@ -34,7 +34,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "Shared runtime state, health, publish, and route readiness surfaces for workspace dashboards.",
     id: "workspace-status",
     name: "Workspace Status",
-    source: "@codexsun/ui/blocks/workspace",
+    source: "@devxcrew/react-ui/blocks/workspace",
     variants: [
       defaultVariant,
       {
@@ -52,7 +52,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A reusable entity card for workspace inventories, resources, and live status surfaces.",
     id: "workspace-entity-card",
     name: "Workspace Entity Card",
-    source: "@codexsun/ui/blocks/workspace",
+    source: "@devxcrew/react-ui/blocks/workspace",
     variants: workspaceEntityCardVariants,
   },
   {
@@ -60,7 +60,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "Observed execution state, readiness checklists, and optional startup splash with measured values.",
     id: "execution-status",
     name: "Execution Status",
-    source: "@codexsun/ui/blocks/execution-status",
+    source: "@devxcrew/react-ui/blocks/execution-status",
     variants: [defaultVariant],
   },
   {
@@ -68,7 +68,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A typed data table with application-owned rows and columns.",
     id: "table",
     name: "Table",
-    source: "@codexsun/ui/blocks/table",
+    source: "@devxcrew/react-ui/blocks/table",
     variants: tableVariants,
   },
   {
@@ -76,7 +76,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A typed application form frame with tabs, lookup fields, and actions.",
     id: "form",
     name: "Form",
-    source: "@codexsun/ui/blocks/form",
+    source: "@devxcrew/react-ui/blocks/form",
     variants: [defaultVariant],
   },
   {
@@ -84,7 +84,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A pointer-aware, clickable character rendered from two aligned 3x3 sprite sheets.",
     id: "mascot",
     name: "Mascot",
-    source: "@codexsun/ui/blocks/mascot",
+    source: "@devxcrew/react-ui/blocks/mascot",
     variants: [defaultVariant],
   },
   {
@@ -92,7 +92,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A shared page-level header with breadcrumb, title, filter, resource, and action arrangements.",
     id: "app-header",
     name: "App Header",
-    source: "@codexsun/ui/blocks/app-header",
+    source: "@devxcrew/react-ui/blocks/app-header",
     variants: [
       {
         description: "Breadcrumb context with an optional profile slot and primary action.",
@@ -116,7 +116,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "An interactive drag-and-drop Kanban board with sortable columns and cards.",
     id: "kanban",
     name: "Kanban Board",
-    source: "@codexsun/ui/blocks/kanban",
+    source: "@devxcrew/react-ui/blocks/kanban",
     variants: [defaultVariant],
   },
   {
@@ -124,7 +124,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A hierarchical file and workspace explorer tree with icons, filter, and actions.",
     id: "file-tree",
     name: "File Tree",
-    source: "@codexsun/ui/blocks/file-tree",
+    source: "@devxcrew/react-ui/blocks/file-tree",
     variants: [defaultVariant],
   },
   {
@@ -132,7 +132,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A drag-and-drop file upload zone with type/size validation and progress tracking.",
     id: "dropzone",
     name: "File Dropzone",
-    source: "@codexsun/ui/blocks/dropzone",
+    source: "@devxcrew/react-ui/blocks/dropzone",
     variants: [defaultVariant],
   },
   {
@@ -140,7 +140,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A safe live preview for Mermaid diagram source.",
     id: "mermaid-preview",
     name: "Mermaid Preview",
-    source: "@codexsun/ui/blocks/mermaid-preview",
+    source: "@devxcrew/react-ui/blocks/mermaid-preview",
     variants: [defaultVariant],
   },
   {
@@ -148,7 +148,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A multi-condition query filter builder with combinators and typed operators.",
     id: "filter-builder",
     name: "Filter Builder",
-    source: "@codexsun/ui/blocks/filter-builder",
+    source: "@devxcrew/react-ui/blocks/filter-builder",
     variants: [defaultVariant],
   },
   {
@@ -156,7 +156,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "An e-commerce product card with image zoom, ratings, swatches, and cart actions.",
     id: "product-card",
     name: "Product Card",
-    source: "@codexsun/ui/blocks/product-card",
+    source: "@devxcrew/react-ui/blocks/product-card",
     variants: [defaultVariant],
   },
   {
@@ -164,7 +164,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A multi-tier pricing table with monthly/annual interval toggle and feature lists.",
     id: "pricing",
     name: "Pricing Table",
-    source: "@codexsun/ui/blocks/pricing",
+    source: "@devxcrew/react-ui/blocks/pricing",
     variants: [defaultVariant],
   },
   {
@@ -172,7 +172,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "An interactive storefront slide-over cart drawer with quantity stepper and shipping threshold meter.",
     id: "cart",
     name: "Storefront Cart",
-    source: "@codexsun/ui/blocks/ecommerce/cart",
+    source: "@devxcrew/react-ui/blocks/ecommerce/cart",
     variants: [defaultVariant],
   },
   {
@@ -180,7 +180,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A storefront category visual grid, megamenu navigation, and pill filter strip.",
     id: "categories",
     name: "Categories Showcase",
-    source: "@codexsun/ui/blocks/ecommerce/categories",
+    source: "@devxcrew/react-ui/blocks/ecommerce/categories",
     variants: [defaultVariant],
   },
   {
@@ -188,7 +188,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A multi-step checkout wizard covering shipping destination, payment method, and order review.",
     id: "checkout",
     name: "Checkout Wizard",
-    source: "@codexsun/ui/blocks/ecommerce/checkout",
+    source: "@devxcrew/react-ui/blocks/ecommerce/checkout",
     variants: [defaultVariant],
   },
   {
@@ -196,7 +196,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A side-by-side product comparison matrix with spec rows and difference highlighting.",
     id: "comparison",
     name: "Product Comparison",
-    source: "@codexsun/ui/blocks/ecommerce/comparison",
+    source: "@devxcrew/react-ui/blocks/ecommerce/comparison",
     variants: [defaultVariant],
   },
   {
@@ -204,7 +204,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A promotional coupon wallet with voucher cards, instant code copy, and applied discount management.",
     id: "coupon-wallet",
     name: "Coupon Wallet",
-    source: "@codexsun/ui/blocks/ecommerce/coupon-wallet",
+    source: "@devxcrew/react-ui/blocks/ecommerce/coupon-wallet",
     variants: [defaultVariant],
   },
   {
@@ -212,7 +212,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A visual shipment milestone timeline with courier details and live delivery status.",
     id: "delivery-tracker",
     name: "Delivery Tracker",
-    source: "@codexsun/ui/blocks/ecommerce/delivery-tracker",
+    source: "@devxcrew/react-ui/blocks/ecommerce/delivery-tracker",
     variants: [defaultVariant],
   },
   {
@@ -220,7 +220,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A checkout payment method selector covering saved cards with CVV entry, UPI, wallets, and COD.",
     id: "payment-methods",
     name: "Payment Methods",
-    source: "@codexsun/ui/blocks/ecommerce/payment-methods",
+    source: "@devxcrew/react-ui/blocks/ecommerce/payment-methods",
     variants: [defaultVariant],
   },
   {
@@ -228,7 +228,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A historical price trend visualization with lowest/peak markers and price drop notifications.",
     id: "price-history",
     name: "Price History Tracker",
-    source: "@codexsun/ui/blocks/ecommerce/price-history",
+    source: "@devxcrew/react-ui/blocks/ecommerce/price-history",
     variants: [defaultVariant],
   },
   {
@@ -236,7 +236,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "An aggregate rating breakdown, verified customer reviews list, and write-review form.",
     id: "reviews",
     name: "Reviews & Ratings",
-    source: "@codexsun/ui/blocks/ecommerce/reviews",
+    source: "@devxcrew/react-ui/blocks/ecommerce/reviews",
     variants: [defaultVariant],
   },
   {
@@ -244,7 +244,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
     description: "A saved items wishlist grid with stock availability indicators and quick move-to-cart actions.",
     id: "wishlist",
     name: "Wishlist Grid",
-    source: "@codexsun/ui/blocks/ecommerce/wishlist",
+    source: "@devxcrew/react-ui/blocks/ecommerce/wishlist",
     variants: [defaultVariant],
   },
   {
@@ -253,7 +253,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
       "A multi-column storefront and content footer with newsletter subscribe, social links, and payment badges.",
     id: "footer",
     name: "Site Footer",
-    source: "@codexsun/ui/blocks/footer",
+    source: "@devxcrew/react-ui/blocks/footer",
     variants: [defaultVariant],
   },
   {
@@ -262,7 +262,7 @@ export const designSystemBlocks: readonly DesignSystemBlockDefinition[] = [
       "An editorial blog suite featuring post cards (standard, horizontal, compact) and rich article reading layout.",
     id: "blog",
     name: "Blog & Editorial",
-    source: "@codexsun/ui/blocks/blog",
+    source: "@devxcrew/react-ui/blocks/blog",
     variants: [defaultVariant],
   },
 ];

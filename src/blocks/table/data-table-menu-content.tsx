@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { DropdownMenuContent } from '@codexsun/ui/components/dropdown-menu'
+import { DropdownMenuContent } from '@devxcrew/react-ui/components/dropdown-menu'
 
 export function DataTableMenuContent({
   actionLabel,

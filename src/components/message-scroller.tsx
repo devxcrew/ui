@@ -2,7 +2,7 @@ import * as React from "react";
 import { ArrowDownIcon } from "lucide-react";
 import { cn } from "../lib/utils";
 
-import { Button } from "@codexsun/ui/components/button";
+import { Button } from "@devxcrew/react-ui/components/button";
 
 function MessageScrollerProvider({ children }: React.PropsWithChildren) {
   return <>{children}</>;

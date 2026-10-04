@@ -1,11 +1,11 @@
-import { Button } from '@codexsun/ui/components/button'
+import { Button } from '@devxcrew/react-ui/components/button'
 import {
   SidebarGroup,
   SidebarGroupContent,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from '@codexsun/ui/components/sidebar'
+} from '@devxcrew/react-ui/components/sidebar'
 import { CirclePlusIcon, MailIcon } from 'lucide-react'
 
 export function NavMain({

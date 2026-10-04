@@ -45,7 +45,7 @@ export function createDefaultMdiApps(applicationId: string): MdiAppItem[] {
 }
 
 function requiredEnvironmentPort(key: string): string {
-  const value = import.meta.env[key];
+  const value = (import.meta as ImportMeta & { env?: Record<string, string> }).env?.[key];
   if (!/^\d{1,5}$/u.test(value ?? ""))
     throw new Error(`${key} must be a local port in the root .env file.`);
   return value!;

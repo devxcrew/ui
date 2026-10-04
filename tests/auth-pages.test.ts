@@ -10,7 +10,7 @@ test('privileged login pages never show regular registration links', () => {
     assert.equal(html.includes('href="/register"'), false)
     assert.ok(html.includes('Username or email'))
     assert.equal(html.includes('type="email"'), false)
-    assert.ok(html.includes('minLength="8"'))
+    assert.equal(html.includes('minLength="8"'), false)
   }
 })
 

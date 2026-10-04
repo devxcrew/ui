@@ -4,7 +4,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@codexsun/ui/components/collapsible'
+} from '@devxcrew/react-ui/components/collapsible'
 import {
   Sidebar,
   SidebarContent,
@@ -17,7 +17,7 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
   SidebarRail,
-} from '@codexsun/ui/components/sidebar'
+} from '@devxcrew/react-ui/components/sidebar'
 
 export type DocumentationNavigation = {
   items: Array<{ isActive?: boolean; onSelect?: () => void; title: string; url: string }>

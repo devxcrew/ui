@@ -1,7 +1,7 @@
 # Execution Status
 
 Presentation-only block, version `1.1.0`, owned by `shared/ui`. Import `ExecutionStatus` from
-`@codexsun/ui/blocks/execution-status`.
+`@devxcrew/react-ui/blocks/execution-status`.
 
 Applications supply `state`, `title`, `description`, `elapsed`, and labeled `metrics`. States are
 `active`, `idle`, `complete`, and `attention`. Only active state animates. Set `animated={false}` to

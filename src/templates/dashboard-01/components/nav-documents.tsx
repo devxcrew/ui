@@ -6,7 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@codexsun/ui/components/dropdown-menu'
+} from '@devxcrew/react-ui/components/dropdown-menu'
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -15,7 +15,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from '@codexsun/ui/components/sidebar'
+} from '@devxcrew/react-ui/components/sidebar'
 import { MoreHorizontalIcon, FolderIcon, ShareIcon, Trash2Icon } from 'lucide-react'
 
 export function NavDocuments({

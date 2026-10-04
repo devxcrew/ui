@@ -14,9 +14,9 @@ import {
   type PaginationState,
   type RowData,
 } from "@tanstack/react-table";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@codexsun/ui/components/table";
-import { cn } from "@codexsun/ui/lib/utils";
-import { TopologyRegion, type InterfaceTopologyController } from "@codexsun/ui/features/interface-topology";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@devxcrew/react-ui/components/table";
+import { cn } from "@devxcrew/react-ui/lib/utils";
+import { TopologyRegion, type InterfaceTopologyController } from "@devxcrew/react-ui/features/interface-topology";
 import { DataTablePagination } from "./data-table-pagination";
 import { DataTableToolbar } from "./data-table-toolbar";
 

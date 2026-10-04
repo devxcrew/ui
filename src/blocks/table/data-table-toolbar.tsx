@@ -1,10 +1,10 @@
 import type { ReactNode } from 'react';
 import { Columns3, Filter, Search } from 'lucide-react';
-import { DropdownMenu, DropdownMenuCheckboxItem } from '@codexsun/ui/components/dropdown-menu';
-import { Input } from '@codexsun/ui/components/input';
+import { DropdownMenu, DropdownMenuCheckboxItem } from '@devxcrew/react-ui/components/dropdown-menu';
+import { Input } from '@devxcrew/react-ui/components/input';
 import { DataTableIconMenuTrigger } from './data-table-icon-menu-trigger';
 import { DataTableMenuContent, dataTableMenuOptionClass } from './data-table-menu-content';
-import { TopologyRegion, type InterfaceTopologyController } from '@codexsun/ui/features/interface-topology';
+import { TopologyRegion, type InterfaceTopologyController } from '@devxcrew/react-ui/features/interface-topology';
 
 export type DataTableColumnControl = {
   id: string;

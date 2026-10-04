@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type ComponentProps } from 'react'
 
-import { Spinner } from '@codexsun/ui/components/spinner'
-import { cn } from '@codexsun/ui/lib/utils'
+import { Spinner } from '@devxcrew/react-ui/components/spinner'
+import { cn } from '@devxcrew/react-ui/lib/utils'
 
 type GlobalLoaderProps = ComponentProps<'div'> & {
   active: boolean

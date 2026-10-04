@@ -13,12 +13,12 @@ import {
   Trash2,
   X,
 } from "lucide-react";
-import { Button } from "@codexsun/ui/components/button";
-import { Checkbox } from "@codexsun/ui/components/checkbox";
-import { Input } from "@codexsun/ui/components/input";
-import { DataTableRowActions } from "@codexsun/ui/blocks/table";
-import { TopologyRegion, type InterfaceTopologyController } from "@codexsun/ui/features/interface-topology";
-import { cn } from "@codexsun/ui/lib/utils";
+import { Button } from "@devxcrew/react-ui/components/button";
+import { Checkbox } from "@devxcrew/react-ui/components/checkbox";
+import { Input } from "@devxcrew/react-ui/components/input";
+import { DataTableRowActions } from "@devxcrew/react-ui/blocks/table";
+import { TopologyRegion, type InterfaceTopologyController } from "@devxcrew/react-ui/features/interface-topology";
+import { cn } from "@devxcrew/react-ui/lib/utils";
 
 export type MasterListDeskFilter = {
   id: string;

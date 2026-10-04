@@ -18,7 +18,7 @@ test("app header renders each public arrangement with dynamic content", () => {
       variant: "title-actions",
     }),
     createElement(AppHeader, {
-      copyValue: "@codexsun/ui/blocks/app-header",
+      copyValue: "@devxcrew/react-ui/blocks/app-header",
       resourceLabel: "apps/crm/web/src/enquiry.tsx",
       title: "Enquiry",
       variant: "resource-actions",

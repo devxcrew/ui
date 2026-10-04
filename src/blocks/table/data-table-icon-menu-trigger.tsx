@@ -1,12 +1,12 @@
 import type { ReactNode } from 'react'
-import { Button } from '@codexsun/ui/components/button'
-import { DropdownMenuTrigger } from '@codexsun/ui/components/dropdown-menu'
+import { Button } from '@devxcrew/react-ui/components/button'
+import { DropdownMenuTrigger } from '@devxcrew/react-ui/components/dropdown-menu'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@codexsun/ui/components/tooltip'
+} from '@devxcrew/react-ui/components/tooltip'
 
 export function DataTableIconMenuTrigger({
   active = false,

@@ -1,9 +1,9 @@
 import { type ReactNode, useState } from "react";
 import { CopyIcon, ExternalLinkIcon, KeyRoundIcon, LaptopIcon, RefreshCwIcon, ShieldCheckIcon } from "lucide-react";
-import { Alert, AlertDescription, AlertTitle } from "@codexsun/ui/components/alert";
-import { Button } from "@codexsun/ui/components/button";
-import { Sheet, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle } from "@codexsun/ui/components/sheet";
-import { Switch } from "@codexsun/ui/components/switch";
+import { Alert, AlertDescription, AlertTitle } from "@devxcrew/react-ui/components/alert";
+import { Button } from "@devxcrew/react-ui/components/button";
+import { Sheet, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle } from "@devxcrew/react-ui/components/sheet";
+import { Switch } from "@devxcrew/react-ui/components/switch";
 
 export type CodexDeviceCode = { message: string; status: "idle" | "awaiting" | "connected" | "failed"; userCode?: string; verificationUrl?: string };
 export type CodexConnectionSettingsProps = { connected: boolean; deviceCode: CodexDeviceCode; message: string; onConnectLocal: () => void; onCopyCode: () => void; onCopyUrl: () => void; onGenerateDeviceCode: () => void; onOpenBrowser: () => void; onOpenChange: (open: boolean) => void; open: boolean };

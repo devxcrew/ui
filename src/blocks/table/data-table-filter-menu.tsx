@@ -1,5 +1,5 @@
 import { Funnel } from 'lucide-react'
-import { DropdownMenu, DropdownMenuCheckboxItem } from '@codexsun/ui/components/dropdown-menu'
+import { DropdownMenu, DropdownMenuCheckboxItem } from '@devxcrew/react-ui/components/dropdown-menu'
 import { DataTableIconMenuTrigger } from './data-table-icon-menu-trigger'
 import { DataTableMenuContent, dataTableMenuOptionClass } from './data-table-menu-content'
 

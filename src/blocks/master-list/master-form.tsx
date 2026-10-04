@@ -1,10 +1,10 @@
 import { useId, useState, type FormEvent } from 'react';
-import { Button } from '@codexsun/ui/components/button';
-import { Field, FieldDescription, FieldError, FieldLabel } from '@codexsun/ui/components/field';
-import { Input } from '@codexsun/ui/components/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@codexsun/ui/components/select';
-import { Textarea } from '@codexsun/ui/components/textarea';
-import { cn } from '@codexsun/ui/lib/utils';
+import { Button } from '@devxcrew/react-ui/components/button';
+import { Field, FieldDescription, FieldError, FieldLabel } from '@devxcrew/react-ui/components/field';
+import { Input } from '@devxcrew/react-ui/components/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@devxcrew/react-ui/components/select';
+import { Textarea } from '@devxcrew/react-ui/components/textarea';
+import { cn } from '@devxcrew/react-ui/lib/utils';
 import type { MasterField, MasterFormValues } from './types';
 
 export type MasterFormProps = {

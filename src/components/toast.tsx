@@ -4,7 +4,7 @@ import * as React from 'react'
 import { Toast as ToastPrimitive } from '@base-ui/react/toast'
 import { cn } from '../lib/utils'
 
-import { Button } from '@codexsun/ui/components/button'
+import { Button } from '@devxcrew/react-ui/components/button'
 import {
   XIcon,
   CircleCheckIcon,

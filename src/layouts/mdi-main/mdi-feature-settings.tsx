@@ -1,8 +1,8 @@
 import { ArrowLeftIcon } from 'lucide-react';
 
-import { Button } from '@codexsun/ui/components/button';
-import { Separator } from '@codexsun/ui/components/separator';
-import { Switch } from '@codexsun/ui/components/switch';
+import { Button } from '@devxcrew/react-ui/components/button';
+import { Separator } from '@devxcrew/react-ui/components/separator';
+import { Switch } from '@devxcrew/react-ui/components/switch';
 import { TopologyMarker, TopologyRegion } from '../../features/interface-topology';
 
 import type { MdiFeatureKey, MdiFeatures } from './mdi-types';

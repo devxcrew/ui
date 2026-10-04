@@ -1,12 +1,11 @@
-import { AppleIcon, Globe2Icon, LogInIcon, OrbitIcon } from "lucide-react";
-import { useState, type FormEvent } from "react";
+import { LogInIcon } from "lucide-react";
+import { useState, type ReactNode, type FormEvent } from "react";
 import { Button } from "../../components/button";
 import {
   Field,
   FieldDescription,
   FieldGroup,
   FieldLabel,
-  FieldSeparator,
 } from "../../components/field";
 import { Input } from "../../components/input";
 import {
@@ -17,12 +16,15 @@ import {
 
 export type LoginPageProps = {
   brandName?: string;
+  additionalFields?: ReactNode;
   busy?: boolean;
   description?: string;
   devLoginEnabled?: boolean;
   embedded?: boolean;
   error?: string;
   forgotHref?: string | null;
+  identifierLabel?: string;
+  identifierType?: "text" | "email";
   onSubmit(identifier: string, password: string): void;
   onDevLogin?: () => void;
   registerHref?: string | null;
@@ -32,12 +34,15 @@ export type LoginPageProps = {
 
 export function LoginPage({
   brandName,
+  additionalFields,
   busy = false,
   description,
   devLoginEnabled = false,
   embedded = false,
   error,
   forgotHref = "/password/forgot",
+  identifierLabel = "Username or email",
+  identifierType = "text",
   onSubmit,
   onDevLogin,
   registerHref = "/register",
@@ -82,18 +87,19 @@ export function LoginPage({
         </header>
         {variant === "v1" ? <div className="border-t" /> : null}
         <FieldGroup>
+          {additionalFields}
           <Field>
             <FieldLabel htmlFor={`login-${variant}-identifier`}>
-              Username or email
+              {identifierLabel}
             </FieldLabel>
             <Input
               autoComplete="username"
               className="h-11"
               id={`login-${variant}-identifier`}
               onChange={(event) => setIdentifier(event.target.value)}
-              placeholder={variant === "v2" ? "Username or email" : undefined}
+              placeholder={variant === "v2" ? identifierLabel : undefined}
               required
-              type="text"
+              type={identifierType}
               value={identifier}
             />
           </Field>
@@ -126,7 +132,6 @@ export function LoginPage({
               autoComplete="current-password"
               className="h-11"
               id={`login-${variant}-password`}
-              minLength={8}
               onChange={(event) => setPassword(event.target.value)}
               required
               type="password"
@@ -154,10 +159,9 @@ export function LoginPage({
               variant={variant === "v1" ? "success" : "default"}
             >
               {variant === "v1" ? <LogInIcon /> : null}
-              {busy ? "Signing in…" : variant === "v2" ? "Login" : "Sign in"}
+              {busy ? "Signing in..." : variant === "v2" ? "Login" : "Sign in"}
             </Button>
           </Field>
-          {variant === "v2" ? <ProviderActions /> : null}
           {registerHref ? (
             <FieldDescription className="text-center">
               Don&apos;t have an account? <a href={registerHref}>Sign up</a>
@@ -166,41 +170,5 @@ export function LoginPage({
         </FieldGroup>
       </form>
     </AuthPageLayout>
-  );
-}
-
-function ProviderActions() {
-  return (
-    <>
-      <FieldSeparator className="*:data-[slot=field-separator-content]:bg-card">
-        Or continue with
-      </FieldSeparator>
-      <Field className="grid grid-cols-3 gap-3">
-        <Button
-          aria-label="Login with Apple"
-          size="icon"
-          type="button"
-          variant="outline"
-        >
-          <AppleIcon />
-        </Button>
-        <Button
-          aria-label="Login with Google"
-          size="icon"
-          type="button"
-          variant="outline"
-        >
-          <Globe2Icon />
-        </Button>
-        <Button
-          aria-label="Login with another provider"
-          size="icon"
-          type="button"
-          variant="outline"
-        >
-          <OrbitIcon />
-        </Button>
-      </Field>
-    </>
   );
 }

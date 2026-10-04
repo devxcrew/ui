@@ -1,10 +1,10 @@
 import { ClipboardCheckIcon, Layers3Icon, XIcon } from "lucide-react";
 
-import { Badge } from "@codexsun/ui/components/badge";
-import { Button } from "@codexsun/ui/components/button";
-import { ScrollArea } from "@codexsun/ui/components/scroll-area";
-import { Separator } from "@codexsun/ui/components/separator";
-import { Sheet, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle } from "@codexsun/ui/components/sheet";
+import { Badge } from "@devxcrew/react-ui/components/badge";
+import { Button } from "@devxcrew/react-ui/components/button";
+import { ScrollArea } from "@devxcrew/react-ui/components/scroll-area";
+import { Separator } from "@devxcrew/react-ui/components/separator";
+import { Sheet, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle } from "@devxcrew/react-ui/components/sheet";
 
 export type HandoverStackItem = {
   content: string;

@@ -7,7 +7,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@codexsun/ui/components/select';
+} from '@devxcrew/react-ui/components/select';
 import type { InterfaceTopologyController, InterfaceTopologySection } from './interface-topology.types';
 
 export function TopologyInspector({ topology }: { topology: InterfaceTopologyController }) {
