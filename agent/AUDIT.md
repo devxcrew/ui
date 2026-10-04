@@ -159,3 +159,8 @@ User authorization: update versions and changelogs, then commit and push all wor
 Remove identity-domain implementations from shared UI and add generic resource presentation, accessibility feedback and public export verification.
 Authenticated MCP connection passed for this owner before release work.
 This delivery covers GitHub source. Npm publication, production deployment and real email acceptance remain separate gates.
+
+## Completion wave evidence - 2026-10-04
+
+npm run release:check passed types, 122 public export compilations, the component suite and a 326-file MIT package.
+Authenticated MCP passed before work. New or expanded three-OS CI requires actual remote run evidence. Npm publication and deployed acceptance remain open.

@@ -10,6 +10,15 @@ Changelog label: v 0.2.0
 
 ## v-0.2.0
 
+### Local completion preparation - 2026-10-04
+
+- Reconcile task status and preserve historical evidence.
+- Apply the user-selected MIT license to first-party code and packed metadata.
+- Add or expand isolated Windows, Linux and macOS source CI.
+- npm run release:check passed types, 122 public export compilations, the component suite and a 326-file MIT package.
+- Publication and external acceptance gates remain open.
+
+
 ### [v 0.2.0] 2026-10-04 5:00 pm - Separate reusable UI from identity
 
 #### Database Changes

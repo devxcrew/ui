@@ -111,5 +111,6 @@
   ],
   "sideEffects": [
     "**/*.css"
-  ]
+  ],
+  "license": "MIT"
 }

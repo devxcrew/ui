@@ -1,4 +1,23 @@
-# Foundation implementation wave — 2026-10-04
+# Current task
+
+## Completion wave - 2026-10-04
+
+Source 0.2.0 passed 122 public export compilations and 61 tests in the source release audit. Those local coverage steps are complete. Browser accessibility and installed registry release acceptance remain open. Three-OS CI is added in this wave.
+
+- [x] Reconcile current status with the GitHub source release and latest owner audit.
+- [x] Retrieve fresh authenticated cloud governance before this wave.
+- [x] Apply the user-selected MIT license to first-party source, package metadata and lock metadata.
+- [x] Record this wave's affected checks and accept only gates with direct evidence.
+
+npm run release:check passed types, 122 public export compilations, the component suite and a 326-file MIT package.
+- [x] Prepare isolated CI coverage for the target Windows/Linux/macOS runtime.
+- [ ] Verify this wave's exact GitHub CI results.
+
+
+Use projects/cxsun/agent/REMAINING-WORK.md for ordered cross-owner dependencies.
+Production deployment and real SMTP acceptance remain deferred. No pending external gate is marked complete.
+
+## Prior records
 
 <!-- foundation-checklist:start -->
 
