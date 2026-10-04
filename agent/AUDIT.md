@@ -164,3 +164,6 @@ This delivery covers GitHub source. Npm publication, production deployment and r
 
 npm run release:check passed types, 122 public export compilations, the component suite and a 326-file MIT package.
 Authenticated MCP passed before work. New or expanded three-OS CI requires actual remote run evidence. Npm publication and deployed acceptance remain open.
+
+
+Three-OS source CI passed: GitHub Actions run 37202030592 on Node 26.10.0 and npm 12.2.0.

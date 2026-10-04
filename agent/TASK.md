@@ -2,6 +2,8 @@
 
 ## Completion wave - 2026-10-04
 
+- [x] Publish the approved MIT package 0.2.0 and verify its registry checksum against the prepared archive.
+
 Source 0.2.0 passed 122 public export compilations and 61 tests in the source release audit. Those local coverage steps are complete. Browser accessibility and installed registry release acceptance remain open. Three-OS CI is added in this wave.
 
 - [x] Reconcile current status with the GitHub source release and latest owner audit.
@@ -11,7 +13,7 @@ Source 0.2.0 passed 122 public export compilations and 61 tests in the source re
 
 npm run release:check passed types, 122 public export compilations, the component suite and a 326-file MIT package.
 - [x] Prepare isolated CI coverage for the target Windows/Linux/macOS runtime.
-- [ ] Verify this wave's exact GitHub CI results.
+- [x] Verify Windows/Linux/macOS CI: run 37202030592.
 
 
 Use projects/cxsun/agent/REMAINING-WORK.md for ordered cross-owner dependencies.
@@ -37,7 +39,8 @@ Parents retain incomplete acceptance gates. Mail tests and production deployment
 
 - [ ] **02.03 Define shared resource presentation contracts** - in-review. Owner: ui.
   - [x] 02.03.1 Generic resource views and module-owned domain boundaries implemented.
-  - [ ] 02.03.2 Accept all-export consumer compilation and interaction contracts.
+  - [x] 02.03.2a Accept compilation of all 122 public exports.
+  - [ ] 02.03.2b Accept browser interaction contracts.
 
 ### Phase 04 - UI and frontend workflows
 
@@ -55,7 +58,8 @@ Parents retain incomplete acceptance gates. Mail tests and production deployment
 
 - [ ] **06.03 Verify UI consumers and accessibility** - in-review. Owner: ui.
   - [x] 06.03.1 UI release checks and Cxsun accessibility markup regression pass.
-  - [ ] 06.03.2 Add all-export/component coverage and complete browser accessibility matrix.
+  - [x] 06.03.2a Verify all exports and local component coverage.
+  - [ ] 06.03.2b Complete interactive browser accessibility matrix.
 
 <!-- foundation-checklist:end -->
 

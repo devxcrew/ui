@@ -81,3 +81,8 @@ Source compilation, 122 public JavaScript export paths and 61 package tests pass
 The required release check includes these checks and tarball validation.
 The pending gates are browser accessibility, responsive interaction and coordinated registry consumers.
 The proposed breaking release is 0.2.0. See README.md for migration notes.
+
+
+## Current execution - 2026-10-04
+
+Local checks and the three-OS source CI passed. The MIT package 0.2.0 is published; Cxsun registry consumer verification is in progress. See TASK.md for current checkboxes and AUDIT.md for evidence. Earlier evidence remains historical.
