@@ -4,7 +4,7 @@
 
 - [x] Publish the approved MIT package 0.2.0 and verify its registry checksum against the prepared archive.
 
-Source 0.2.0 passed 122 public export compilations and 61 tests in the source release audit. Those local coverage steps are complete. Browser accessibility and installed registry release acceptance remain open. Three-OS CI is added in this wave.
+Source 0.2.0 passed 122 public export compilations and 61 tests in the source release audit. Those local coverage steps are complete. Installed registry consumption passed in two generated apps. Browser accessibility remains open. Three-OS CI is added in this wave.
 
 - [x] Reconcile current status with the GitHub source release and latest owner audit.
 - [x] Retrieve fresh authenticated cloud governance before this wave.
@@ -27,8 +27,7 @@ Production deployment and real SMTP acceptance remain deferred. No pending exter
 
 Master: [all foundation tasks](D:/codexsun/projects/cxsun/agent/CHECKLIST.md).
 
-Updated: 2026-10-04. Checked steps have recorded local evidence.
-Parents retain incomplete acceptance gates. Mail tests and production deployment are deferred by user.
+Updated: 2026-10-04. Checked steps have recorded evidence. External acceptance stays pending.
 
 ### Phase 01 - Baseline and ownership
 
@@ -58,7 +57,7 @@ Parents retain incomplete acceptance gates. Mail tests and production deployment
 
 - [ ] **06.03 Verify UI consumers and accessibility** - in-review. Owner: ui.
   - [x] 06.03.1 UI release checks and Cxsun accessibility markup regression pass.
-  - [x] 06.03.2a Verify all exports and local component coverage.
+  - [x] 06.03.2a Verify all public exports and local component coverage.
   - [ ] 06.03.2b Complete interactive browser accessibility matrix.
 
 <!-- foundation-checklist:end -->
@@ -132,7 +131,7 @@ No application runtime refactor or new infrastructure was added.
 - [x] 04.01.2a Wire reusable rendering and behavior regression tests.
 - [x] 06.03.2a Run 61 package tests and strict source compilation.
 - [ ] 06.03.2b Complete keyboard, screen-reader and supported viewport browser evidence.
-- [ ] 06.03.2c Verify independently installed coordinated release artifacts.
+- [x] 06.03.2c Verify independently installed coordinated release artifacts in two registry apps.
 
 Earlier statements that no standalone typecheck or component suite exists are historical.
 The required release check now includes compilation, public exports and the package suite.
@@ -142,3 +141,8 @@ Release title: Separate reusable UI from identity.
 Remove identity-domain implementations from shared UI and add generic resource presentation, accessibility feedback and public export verification.
 Update version records, review release checks, then commit and push the current owner branch.
 Preserve existing task history and incomplete acceptance gates.
+
+
+## Registry consumer acceptance - 2026-10-04
+
+Two independent generated apps passed exact registry installation, application verification, module boundaries and live SQLite checks. Cross-app session denial passed. Cxsun three-OS CI passed in run 37204145628. See projects/cxsun/agent/GENERATED-CONSUMERS.json and RELEASE-PACKAGES.json. Browser acceptance and future version upgrade rehearsal remain separate.
