@@ -10,6 +10,16 @@ Changelog label: v 0.2.1
 
 ## v-0.2.1
 
+### [v 0.2.1] 2026-10-05 12:46 pm - Record shared UI consumer acceptance
+
+#### Database Changes
+
+- Database update: No (manual).
+
+#### App Codebase Changes
+
+- Record 61 tests, release checks and fresh source consumer acceptance with app foundation alignment.
+
 ### [v 0.2.1] 2026-10-05 8:38 am - Align workspace packages
 
 #### Database Changes
@@ -345,3 +355,10 @@ Publication passed. Registry integrity matches the prepared MIT archive.
 
 Source version: 0.2.1. Published package archives retain their existing versions.
 The baseline is recorded in projects/cxsun/agent/DEPENDENCY-BASELINE.json.
+
+
+## Unreleased alignment - 2026-10-05
+
+Release checks (61 tests) and fresh source consumers passed. Source 0.2.1 remains unpublished.
+
+Authenticated live MCP verification passed. See the [alignment audit](D:/codexsun/projects/cxsun/agent/SHARED-ALIGNMENT.md). Version numbers remain unchanged. No release delivery was performed by this audit.
