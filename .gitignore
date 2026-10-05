@@ -13,3 +13,7 @@ dist/
 .vscode/
 coverage/
 .cache/
+
+.cache-npm-*
+
+*.tgz
