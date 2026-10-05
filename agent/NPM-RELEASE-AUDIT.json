@@ -4,7 +4,7 @@
   "sourceVersion": "0.2.1",
   "tests": 61,
   "releaseChecks": "passed",
-  "registryStatus": "publication-in-progress",
+  "registryStatus": "latest-and-checksum-verified",
   "deferred": [
     "production deployment",
     "real SMTP delivery"
@@ -13,5 +13,29 @@
     "filename": "devxcrew-ui-0.2.1.tgz",
     "shasum": "db43fe570720717f9c426d09bf9b7ff5d77bd1fa",
     "integrity": "sha512-AnFezfGAcDaGxT8SEgfPUGbZtTWbVfOfpK2VMBPDfuaf9qTocJFsXvSGC5bEt521NxwUUiEIZced4tpfa47S4w=="
+  },
+  "registry": {
+    "version": "0.2.1",
+    "dist.shasum": "db43fe570720717f9c426d09bf9b7ff5d77bd1fa",
+    "dist.integrity": "sha512-AnFezfGAcDaGxT8SEgfPUGbZtTWbVfOfpK2VMBPDfuaf9qTocJFsXvSGC5bEt521NxwUUiEIZced4tpfa47S4w=="
+  },
+  "artifactScope": "No environment files, test files, database files or node_modules",
+  "sourceCi": "passed",
+  "consumer": {
+    "installedVersion": "0.2.1",
+    "registryOnly": true,
+    "publicRuntimeImports": "passed",
+    "typescriptAndUiImports": "passed",
+    "toolsCli": "passed",
+    "sqlitePersistence": "passed in backend consumer",
+    "securityAudit": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "evidence": "shared/tools/.cache-npm-consumer"
   }
 }
