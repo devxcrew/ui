@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-05",
+  "package": "@devxcrew/ui",
+  "sourceVersion": "0.2.1",
+  "tests": 61,
+  "releaseChecks": "passed",
+  "registryStatus": "publication-in-progress",
+  "deferred": [
+    "production deployment",
+    "real SMTP delivery"
+  ],
+  "artifact": {
+    "filename": "devxcrew-ui-0.2.1.tgz",
+    "shasum": "db43fe570720717f9c426d09bf9b7ff5d77bd1fa",
+    "integrity": "sha512-AnFezfGAcDaGxT8SEgfPUGbZtTWbVfOfpK2VMBPDfuaf9qTocJFsXvSGC5bEt521NxwUUiEIZced4tpfa47S4w=="
+  }
+}

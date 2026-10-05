@@ -1,0 +1,1646 @@
+{
+  "@devxcrew/ui": {
+    "id": "@devxcrew/ui@0.2.1",
+    "name": "@devxcrew/ui",
+    "version": "0.2.1",
+    "size": 223729,
+    "unpackedSize": 985569,
+    "shasum": "db43fe570720717f9c426d09bf9b7ff5d77bd1fa",
+    "integrity": "sha512-AnFezfGAcDaGxT8SEgfPUGbZtTWbVfOfpK2VMBPDfuaf9qTocJFsXvSGC5bEt521NxwUUiEIZced4tpfa47S4w==",
+    "filename": "devxcrew-ui-0.2.1.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 1065,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 4654,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 3949,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/agent-chat-workspace/agent-chat-workspace.tsx",
+        "size": 7013,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/agent-chat-workspace/index.ts",
+        "size": 166,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/agent-provider-settings/agent-provider-settings.tsx",
+        "size": 12352,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/agent-provider-settings/index.ts",
+        "size": 232,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/agent-task-workspace/agent-task-workspace.tsx",
+        "size": 3930,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/agent-task-workspace/index.ts",
+        "size": 156,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/analysis-context/analysis-context.tsx",
+        "size": 570,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/analysis-context/index.ts",
+        "size": 54,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/app-header/app-header.tsx",
+        "size": 4945,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/app-header/index.ts",
+        "size": 150,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/archived-chat-workspace/archived-chat-workspace.tsx",
+        "size": 3195,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/archived-chat-workspace/index.ts",
+        "size": 162,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/admin-login-page.tsx",
+        "size": 432,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/admin-password-forgot-page.tsx",
+        "size": 252,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/auth-page-layout.tsx",
+        "size": 3100,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/client-login-page.tsx",
+        "size": 488,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/client-password-forgot-page.tsx",
+        "size": 247,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/index.ts",
+        "size": 741,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/login-page.tsx",
+        "size": 5292,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/password-forgot-page.tsx",
+        "size": 1895,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/portal-pages.tsx",
+        "size": 899,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/README.md",
+        "size": 1981,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/register-page.tsx",
+        "size": 4099,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/super-admin-login-page.tsx",
+        "size": 439,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/super-admin-password-forgot-page.tsx",
+        "size": 254,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/blog/blog-card.tsx",
+        "size": 5790,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/blog/blog-reader.tsx",
+        "size": 6872,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/blog/blog-types.ts",
+        "size": 1217,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/blog/index.ts",
+        "size": 87,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-composer/chat-composer.tsx",
+        "size": 6007,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-composer/index.ts",
+        "size": 100,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-history/chat-history.tsx",
+        "size": 3417,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-history/index.ts",
+        "size": 90,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-response-progress/chat-response-progress.tsx",
+        "size": 1205,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-response-progress/index.ts",
+        "size": 194,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-runtime-controls/chat-runtime-controls.tsx",
+        "size": 2686,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-runtime-controls/index.ts",
+        "size": 134,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-runtime-trace/chat-runtime-trace.tsx",
+        "size": 3726,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/chat-runtime-trace/index.ts",
+        "size": 145,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/codex-connection-settings/codex-connection-settings.tsx",
+        "size": 5203,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/codex-connection-settings/index.ts",
+        "size": 128,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dropzone/dropzone-file-item.tsx",
+        "size": 3744,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dropzone/dropzone-types.ts",
+        "size": 805,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dropzone/dropzone.tsx",
+        "size": 6506,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dropzone/index.ts",
+        "size": 195,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/cart/cart-drawer.tsx",
+        "size": 8521,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/cart/cart-types.ts",
+        "size": 805,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/cart/index.ts",
+        "size": 59,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/categories/categories-types.ts",
+        "size": 648,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/categories/category-showcase.tsx",
+        "size": 4895,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/categories/index.ts",
+        "size": 71,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/checkout/checkout-types.ts",
+        "size": 1063,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/checkout/checkout-wizard.tsx",
+        "size": 19673,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/checkout/index.ts",
+        "size": 67,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/comparison/comparison-types.ts",
+        "size": 798,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/comparison/index.ts",
+        "size": 72,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/comparison/product-comparison.tsx",
+        "size": 7143,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/coupon-wallet/coupon-wallet-types.ts",
+        "size": 609,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/coupon-wallet/coupon-wallet.tsx",
+        "size": 6249,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/coupon-wallet/index.ts",
+        "size": 70,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/delivery-tracker/delivery-tracker-types.ts",
+        "size": 576,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/delivery-tracker/delivery-tracker.tsx",
+        "size": 6669,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/delivery-tracker/index.ts",
+        "size": 76,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/index.ts",
+        "size": 353,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/payment-methods/index.ts",
+        "size": 82,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/payment-methods/payment-method-selector.tsx",
+        "size": 8816,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/payment-methods/payment-methods-types.ts",
+        "size": 652,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/price-history/index.ts",
+        "size": 76,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/price-history/price-history-chart.tsx",
+        "size": 6913,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/price-history/price-history-types.ts",
+        "size": 430,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/reviews/index.ts",
+        "size": 66,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/reviews/reviews-section.tsx",
+        "size": 11804,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/reviews/reviews-types.ts",
+        "size": 772,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/wishlist/index.ts",
+        "size": 65,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/wishlist/wishlist-grid.tsx",
+        "size": 5823,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/ecommerce/wishlist/wishlist-types.ts",
+        "size": 543,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/execution-status/execution-status.tsx",
+        "size": 4707,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/execution-status/index.ts",
+        "size": 133,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/execution-status/README.md",
+        "size": 1596,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/file-tree/file-icons.tsx",
+        "size": 2082,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/file-tree/file-tree-node.tsx",
+        "size": 5254,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/file-tree/file-tree-types.ts",
+        "size": 927,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/file-tree/file-tree.tsx",
+        "size": 5200,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/file-tree/index.ts",
+        "size": 285,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/filter-builder/filter-builder.tsx",
+        "size": 5102,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/filter-builder/filter-row.tsx",
+        "size": 6284,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/filter-builder/filter-types.ts",
+        "size": 1214,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/filter-builder/index.ts",
+        "size": 282,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/footer/footer-types.ts",
+        "size": 842,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/footer/index.ts",
+        "size": 61,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/footer/site-footer.tsx",
+        "size": 7786,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/form/form-block.tsx",
+        "size": 3533,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/form/form-lookup-field.tsx",
+        "size": 1439,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/form/index.ts",
+        "size": 220,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/handover-stack/handover-stack.tsx",
+        "size": 2724,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/handover-stack/index.ts",
+        "size": 99,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/idea-handover/idea-handover-readiness.ts",
+        "size": 1702,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/idea-handover/idea-handover-workspace.tsx",
+        "size": 14786,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/idea-handover/index.ts",
+        "size": 424,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/kanban/index.ts",
+        "size": 359,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/kanban/kanban-board.tsx",
+        "size": 4257,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/kanban/kanban-card.tsx",
+        "size": 5092,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/kanban/kanban-column.tsx",
+        "size": 3336,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/kanban/kanban-types.ts",
+        "size": 923,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/loader/global-loader.tsx",
+        "size": 2535,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/loader/index.ts",
+        "size": 47,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/mascot/index.ts",
+        "size": 80,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/mascot/mascot.tsx",
+        "size": 6000,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/mascot/README.md",
+        "size": 997,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/master-list/index.ts",
+        "size": 476,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/master-list/master-form.tsx",
+        "size": 4996,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/master-list/master-list-desk.tsx",
+        "size": 12931,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/master-list/master-list.tsx",
+        "size": 7150,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/master-list/README.md",
+        "size": 1228,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/master-list/types.ts",
+        "size": 563,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/mermaid-preview/index.ts",
+        "size": 51,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/mermaid-preview/mermaid-preview.tsx",
+        "size": 5462,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/notifications/index.ts",
+        "size": 97,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/notifications/notification-center-page.tsx",
+        "size": 2547,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/notifications/README.md",
+        "size": 370,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/pricing/index.ts",
+        "size": 167,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/pricing/pricing-table.tsx",
+        "size": 6279,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/pricing/pricing-types.ts",
+        "size": 808,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/product-card/index.ts",
+        "size": 139,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/product-card/product-card-types.ts",
+        "size": 817,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/product-card/product-card.tsx",
+        "size": 7010,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/resource-view/index.ts",
+        "size": 165,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/resource-view/resource-view.tsx",
+        "size": 2291,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/data-table-block.tsx",
+        "size": 11318,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/data-table-filter-menu.tsx",
+        "size": 1425,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/data-table-icon-menu-trigger.tsx",
+        "size": 1102,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/data-table-menu-content.tsx",
+        "size": 890,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/data-table-pagination.tsx",
+        "size": 4395,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/data-table-row-actions.tsx",
+        "size": 1374,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/data-table-status.tsx",
+        "size": 1385,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/data-table-toolbar.tsx",
+        "size": 4237,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/data-table-totals.tsx",
+        "size": 776,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/table/index.ts",
+        "size": 640,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/index.ts",
+        "size": 1209,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-action-card.tsx",
+        "size": 2120,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-application-header.tsx",
+        "size": 2074,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-entity-card.tsx",
+        "size": 1478,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-health-summary.tsx",
+        "size": 541,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-metric-card.tsx",
+        "size": 3241,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-page-header.tsx",
+        "size": 1171,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-publish-status.tsx",
+        "size": 768,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-route-checklist.tsx",
+        "size": 1190,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-runtime-status.tsx",
+        "size": 2019,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/workspace/workspace-section-card.tsx",
+        "size": 951,
+        "mode": 420
+      },
+      {
+        "path": "src/components/accordion.tsx",
+        "size": 2660,
+        "mode": 420
+      },
+      {
+        "path": "src/components/alert-dialog.tsx",
+        "size": 5189,
+        "mode": 420
+      },
+      {
+        "path": "src/components/alert.tsx",
+        "size": 2025,
+        "mode": 420
+      },
+      {
+        "path": "src/components/aspect-ratio.tsx",
+        "size": 404,
+        "mode": 420
+      },
+      {
+        "path": "src/components/attachment.tsx",
+        "size": 6106,
+        "mode": 420
+      },
+      {
+        "path": "src/components/avatar.tsx",
+        "size": 2984,
+        "mode": 420
+      },
+      {
+        "path": "src/components/badge.tsx",
+        "size": 2409,
+        "mode": 420
+      },
+      {
+        "path": "src/components/breadcrumb.tsx",
+        "size": 2486,
+        "mode": 420
+      },
+      {
+        "path": "src/components/bubble.tsx",
+        "size": 4807,
+        "mode": 420
+      },
+      {
+        "path": "src/components/button-group.tsx",
+        "size": 2601,
+        "mode": 420
+      },
+      {
+        "path": "src/components/button.tsx",
+        "size": 4296,
+        "mode": 420
+      },
+      {
+        "path": "src/components/calendar.tsx",
+        "size": 7921,
+        "mode": 420
+      },
+      {
+        "path": "src/components/card.tsx",
+        "size": 2949,
+        "mode": 420
+      },
+      {
+        "path": "src/components/carousel.tsx",
+        "size": 5535,
+        "mode": 420
+      },
+      {
+        "path": "src/components/chart.tsx",
+        "size": 10335,
+        "mode": 420
+      },
+      {
+        "path": "src/components/checkbox.tsx",
+        "size": 1532,
+        "mode": 420
+      },
+      {
+        "path": "src/components/collapsible.tsx",
+        "size": 624,
+        "mode": 420
+      },
+      {
+        "path": "src/components/combobox.tsx",
+        "size": 8985,
+        "mode": 420
+      },
+      {
+        "path": "src/components/command.tsx",
+        "size": 4981,
+        "mode": 420
+      },
+      {
+        "path": "src/components/compact-model-switcher.tsx",
+        "size": 3826,
+        "mode": 420
+      },
+      {
+        "path": "src/components/context-menu.tsx",
+        "size": 7973,
+        "mode": 420
+      },
+      {
+        "path": "src/components/dialog.tsx",
+        "size": 3899,
+        "mode": 420
+      },
+      {
+        "path": "src/components/direction.tsx",
+        "size": 84,
+        "mode": 420
+      },
+      {
+        "path": "src/components/drawer.tsx",
+        "size": 11285,
+        "mode": 420
+      },
+      {
+        "path": "src/components/dropdown-menu.tsx",
+        "size": 8736,
+        "mode": 420
+      },
+      {
+        "path": "src/components/empty.tsx",
+        "size": 2351,
+        "mode": 420
+      },
+      {
+        "path": "src/components/field.tsx",
+        "size": 6371,
+        "mode": 420
+      },
+      {
+        "path": "src/components/hover-card.tsx",
+        "size": 1834,
+        "mode": 420
+      },
+      {
+        "path": "src/components/input-group.tsx",
+        "size": 5226,
+        "mode": 420
+      },
+      {
+        "path": "src/components/input-otp.tsx",
+        "size": 2530,
+        "mode": 420
+      },
+      {
+        "path": "src/components/input.tsx",
+        "size": 1058,
+        "mode": 420
+      },
+      {
+        "path": "src/components/item.tsx",
+        "size": 4802,
+        "mode": 420
+      },
+      {
+        "path": "src/components/kbd.tsx",
+        "size": 839,
+        "mode": 420
+      },
+      {
+        "path": "src/components/label.tsx",
+        "size": 505,
+        "mode": 420
+      },
+      {
+        "path": "src/components/markdown-content.tsx",
+        "size": 3852,
+        "mode": 420
+      },
+      {
+        "path": "src/components/marker.tsx",
+        "size": 1927,
+        "mode": 420
+      },
+      {
+        "path": "src/components/menubar.tsx",
+        "size": 8164,
+        "mode": 420
+      },
+      {
+        "path": "src/components/message-scroller.tsx",
+        "size": 2637,
+        "mode": 420
+      },
+      {
+        "path": "src/components/message.tsx",
+        "size": 2224,
+        "mode": 420
+      },
+      {
+        "path": "src/components/native-select.tsx",
+        "size": 2110,
+        "mode": 420
+      },
+      {
+        "path": "src/components/navigation-menu.tsx",
+        "size": 7387,
+        "mode": 420
+      },
+      {
+        "path": "src/components/pagination.tsx",
+        "size": 2852,
+        "mode": 420
+      },
+      {
+        "path": "src/components/popover.tsx",
+        "size": 2532,
+        "mode": 420
+      },
+      {
+        "path": "src/components/progress.tsx",
+        "size": 2070,
+        "mode": 420
+      },
+      {
+        "path": "src/components/questionnaire.tsx",
+        "size": 4733,
+        "mode": 420
+      },
+      {
+        "path": "src/components/radio-group.tsx",
+        "size": 1822,
+        "mode": 420
+      },
+      {
+        "path": "src/components/resizable.tsx",
+        "size": 1626,
+        "mode": 420
+      },
+      {
+        "path": "src/components/rich-text-editor.tsx",
+        "size": 20529,
+        "mode": 420
+      },
+      {
+        "path": "src/components/scroll-area.tsx",
+        "size": 1574,
+        "mode": 420
+      },
+      {
+        "path": "src/components/select.tsx",
+        "size": 6664,
+        "mode": 420
+      },
+      {
+        "path": "src/components/separator.tsx",
+        "size": 526,
+        "mode": 420
+      },
+      {
+        "path": "src/components/sheet.tsx",
+        "size": 4301,
+        "mode": 420
+      },
+      {
+        "path": "src/components/sidebar.tsx",
+        "size": 22118,
+        "mode": 420
+      },
+      {
+        "path": "src/components/skeleton.tsx",
+        "size": 276,
+        "mode": 420
+      },
+      {
+        "path": "src/components/slider.tsx",
+        "size": 1874,
+        "mode": 420
+      },
+      {
+        "path": "src/components/sonner.tsx",
+        "size": 1139,
+        "mode": 420
+      },
+      {
+        "path": "src/components/sparkline.tsx",
+        "size": 6877,
+        "mode": 420
+      },
+      {
+        "path": "src/components/spinner.tsx",
+        "size": 432,
+        "mode": 420
+      },
+      {
+        "path": "src/components/status-badge.tsx",
+        "size": 4658,
+        "mode": 420
+      },
+      {
+        "path": "src/components/switch.tsx",
+        "size": 1812,
+        "mode": 420
+      },
+      {
+        "path": "src/components/table.tsx",
+        "size": 2522,
+        "mode": 420
+      },
+      {
+        "path": "src/components/tabs.tsx",
+        "size": 3656,
+        "mode": 420
+      },
+      {
+        "path": "src/components/textarea.tsx",
+        "size": 843,
+        "mode": 420
+      },
+      {
+        "path": "src/components/toast.tsx",
+        "size": 7322,
+        "mode": 420
+      },
+      {
+        "path": "src/components/toggle-group.tsx",
+        "size": 3165,
+        "mode": 420
+      },
+      {
+        "path": "src/components/toggle.tsx",
+        "size": 1749,
+        "mode": 420
+      },
+      {
+        "path": "src/components/tooltip.tsx",
+        "size": 2799,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/action-intents.ts",
+        "size": 598,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/agent-manifest.ts",
+        "size": 2907,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/block-registry.ts",
+        "size": 9292,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/component-registry.ts",
+        "size": 4595,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/contracts.ts",
+        "size": 1858,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/defaults.ts",
+        "size": 174,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/index.ts",
+        "size": 1306,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/mcp-server.ts",
+        "size": 5894,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/page-registry.ts",
+        "size": 2091,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/README.md",
+        "size": 2695,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/selection.ts",
+        "size": 3175,
+        "mode": 420
+      },
+      {
+        "path": "src/design-system/template-registry.ts",
+        "size": 1370,
+        "mode": 420
+      },
+      {
+        "path": "src/features/interface-topology/index.ts",
+        "size": 534,
+        "mode": 420
+      },
+      {
+        "path": "src/features/interface-topology/interface-topology.types.ts",
+        "size": 1080,
+        "mode": 420
+      },
+      {
+        "path": "src/features/interface-topology/topology-control.tsx",
+        "size": 881,
+        "mode": 420
+      },
+      {
+        "path": "src/features/interface-topology/topology-inspector.tsx",
+        "size": 8534,
+        "mode": 420
+      },
+      {
+        "path": "src/features/interface-topology/topology-marker.tsx",
+        "size": 2147,
+        "mode": 420
+      },
+      {
+        "path": "src/features/interface-topology/topology-region.tsx",
+        "size": 1232,
+        "mode": 420
+      },
+      {
+        "path": "src/features/interface-topology/use-interface-topology.ts",
+        "size": 6024,
+        "mode": 420
+      },
+      {
+        "path": "src/hooks/use-mobile.ts",
+        "size": 565,
+        "mode": 420
+      },
+      {
+        "path": "src/hooks/use-scroll-follow.ts",
+        "size": 919,
+        "mode": 420
+      },
+      {
+        "path": "src/index.ts",
+        "size": 646,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/agent-workspace/agent-activity-rail.tsx",
+        "size": 3209,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/agent-workspace/agent-workspace.tsx",
+        "size": 844,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/agent-workspace/agent-workspace.types.ts",
+        "size": 651,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/agent-workspace/index.ts",
+        "size": 227,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/blog-header/blog-header-types.ts",
+        "size": 642,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/blog-header/blog-header.tsx",
+        "size": 6344,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/blog-header/index.ts",
+        "size": 66,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/documentation-workspace/documentation-workspace.tsx",
+        "size": 1101,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/documentation-workspace/index.ts",
+        "size": 101,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/documentation-workspace/README.md",
+        "size": 480,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/ecommerce-header/ecommerce-actions.tsx",
+        "size": 2781,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/ecommerce-header/ecommerce-announcement.tsx",
+        "size": 1663,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/ecommerce-header/ecommerce-drawer.tsx",
+        "size": 3428,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/ecommerce-header/ecommerce-header-types.ts",
+        "size": 1639,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/ecommerce-header/ecommerce-header.tsx",
+        "size": 2001,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/ecommerce-header/ecommerce-navigation.tsx",
+        "size": 3908,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/ecommerce-header/ecommerce-search.tsx",
+        "size": 2990,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/ecommerce-header/index.ts",
+        "size": 78,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/main-workspace/index.ts",
+        "size": 1120,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/index.ts",
+        "size": 922,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-app-catalog.generated.ts",
+        "size": 3135,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-app-catalog.ts",
+        "size": 2047,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-app-switcher.tsx",
+        "size": 3458,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-feature-settings.tsx",
+        "size": 4858,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-global-search.tsx",
+        "size": 5824,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-main.tsx",
+        "size": 9477,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-notifications-menu.tsx",
+        "size": 6837,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-profile-menu.tsx",
+        "size": 3441,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-sidebar-navigation.tsx",
+        "size": 7169,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-sidebar.tsx",
+        "size": 3874,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-status-bar.tsx",
+        "size": 1055,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-top-menu-control.ts",
+        "size": 299,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-top-menu.tsx",
+        "size": 3829,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-topology.tsx",
+        "size": 9138,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-tweak-panel.tsx",
+        "size": 3242,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/mdi-types.ts",
+        "size": 3413,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/use-mdi-features.ts",
+        "size": 1135,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi-main/use-mdi-sidebar-state.ts",
+        "size": 1802,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi/index.ts",
+        "size": 44,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/mdi/mdi.tsx",
+        "size": 524,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/README.md",
+        "size": 3735,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/site-header/announcement-bar.tsx",
+        "size": 1637,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/site-header/category-strip.tsx",
+        "size": 1440,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/site-header/index.ts",
+        "size": 574,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/site-header/main-navbar.tsx",
+        "size": 6626,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/site-header/mobile-drawer.tsx",
+        "size": 4894,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/site-header/site-header-types.ts",
+        "size": 1320,
+        "mode": 420
+      },
+      {
+        "path": "src/layouts/site-header/site-header.tsx",
+        "size": 1585,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/random-id.ts",
+        "size": 955,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/utils.ts",
+        "size": 174,
+        "mode": 420
+      },
+      {
+        "path": "src/providers/pdf-provider.ts",
+        "size": 4992,
+        "mode": 420
+      },
+      {
+        "path": "src/styles/globals.css",
+        "size": 11920,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/app-sidebar.tsx",
+        "size": 3418,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/chart-area-interactive.tsx",
+        "size": 10566,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/data-table-cell-viewer.tsx",
+        "size": 8702,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/data-table.tsx",
+        "size": 19978,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/nav-documents.tsx",
+        "size": 2382,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/nav-main.tsx",
+        "size": 1669,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/nav-secondary.tsx",
+        "size": 851,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/nav-user.tsx",
+        "size": 3154,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/section-cards.tsx",
+        "size": 3705,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/components/site-header.tsx",
+        "size": 671,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/data.json",
+        "size": 12795,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/dashboard-01/index.ts",
+        "size": 441,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/documentation-sidebar/app-sidebar.tsx",
+        "size": 3453,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/documentation-sidebar/index.ts",
+        "size": 104,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/README.md",
+        "size": 606,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/sidebar-07/components/app-sidebar.tsx",
+        "size": 3200,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/sidebar-07/components/nav-main.tsx",
+        "size": 1761,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/sidebar-07/components/nav-projects.tsx",
+        "size": 2420,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/sidebar-07/components/nav-user.tsx",
+        "size": 3241,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/sidebar-07/components/team-switcher.tsx",
+        "size": 3018,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/sidebar-07/index.ts",
+        "size": 54,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/ui-page/index.ts",
+        "size": 425,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/ui-page/ui-browser-frame.tsx",
+        "size": 1032,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/ui-page/ui-template-code.tsx",
+        "size": 1457,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/ui-page/ui-template-header.tsx",
+        "size": 2633,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/ui-page/ui-template-navigation.tsx",
+        "size": 2048,
+        "mode": 420
+      },
+      {
+        "path": "src/templates/ui-page/ui-template-page.tsx",
+        "size": 2887,
+        "mode": 420
+      },
+      {
+        "path": "src/theme/index.ts",
+        "size": 353,
+        "mode": 420
+      },
+      {
+        "path": "src/theme/theme-config.ts",
+        "size": 1184,
+        "mode": 420
+      },
+      {
+        "path": "src/theme/theme-provider.tsx",
+        "size": 4640,
+        "mode": 420
+      },
+      {
+        "path": "src/theme/theme-selector.tsx",
+        "size": 2717,
+        "mode": 420
+      },
+      {
+        "path": "src/tokens/index.ts",
+        "size": 252,
+        "mode": 420
+      },
+      {
+        "path": "src/vite-env.d.ts",
+        "size": 86,
+        "mode": 420
+      }
+    ],
+    "entryCount": 326,
+    "bundled": []
+  }
+}
