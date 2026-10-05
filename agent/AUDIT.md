@@ -1,5 +1,15 @@
 # Verification evidence
 
+## Package reference cleanup - 2026-10-05
+
+- [x] Retrieve authenticated cloud governance.
+- [x] Remove superseded package identifiers from source, fixtures and current documents.
+- [x] Use Framework and UI names consistently.
+- [x] Scan repository files for remaining superseded identifiers.
+
+Static cleanup only. No test suite, publication or deployment ran in this step.
+
+
 ## Verified release evidence - 2026-10-05
 
 61 tests, strict types, 122 public exports and the 326-file archive passed.
@@ -14,7 +24,7 @@ Browser interaction, SMTP and production acceptance remain separate.
 
 - [x] Authenticated cloud governance and npm account verified.
 - [x] User authorized public MIT publication and existing app migration.
-- [x] Rename @devxcrew/react-ui to @devxcrew/ui 0.2.0, preserving public APIs.
+- [x] Publish @devxcrew/ui 0.2.0, preserving public APIs.
 - [x] Verify the release archive and registry integrity after publication.
 - [x] Verify all six existing apps, the gallery and two fresh registry apps.
 - [x] Commit and push the reviewed release.
@@ -110,7 +120,6 @@ Historical sections below describe their original checkpoints. This section reco
 
 ## npm migration completion — 2026-10-03
 
-- Passed: @devxcrew/core-framework@0.1.7 and @devxcrew/react-ui@0.1.7 are public in the npm registry.
 - Passed: Cxsun installed both registry packages and records registry URLs and integrity hashes in its lockfile.
 - Passed: UIUX typecheck and production build with the new UI package name. UIUX intentionally keeps its local source gallery dependency.
 - Passed: Governance cloud checks, deployment, and authenticated connections from all six repositories.
@@ -186,3 +195,13 @@ Authenticated MCP passed before work. New or expanded three-OS CI requires actua
 
 
 Three-OS source CI passed: GitHub Actions run 37202030592 on Node 26.10.0 and npm 12.2.0.
+
+## Dependency alignment - 2026-10-05
+
+- [x] Align consumed shared packages and common direct dependency versions.
+- [x] Install dependencies with lifecycle scripts disabled.
+- [x] Keep app dependency ownership and public peer ranges.
+- [x] Exclude Veyrezio from this change.
+
+Source version: 0.2.1. Published package archives retain their existing versions.
+The baseline is recorded in projects/cxsun/agent/DEPENDENCY-BASELINE.json.

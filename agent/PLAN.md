@@ -10,7 +10,7 @@ Historical checkpoints below retain their original package names and results.
 
 
 Source: projects/cxsun/agent/PLAN.md, sections 3, 6, 7, 8.3 and 9.
-Owner: shared/ui. Public package: @devxcrew/react-ui.
+Owner: shared/ui. Public package: @devxcrew/ui.
 Keep the master phase and task IDs. Do not restart numbering.
 
 ## Purpose and boundary
