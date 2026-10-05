@@ -1,7 +1,7 @@
 import { PlusIcon, Settings2Icon } from "lucide-react";
 import type { ReactNode } from "react";
 
-import { Button } from "@devxcrew/react-ui/components/button";
+import { Button } from "@devxcrew/ui/components/button";
 import {
   Sidebar,
   SidebarContent,
@@ -11,8 +11,8 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarRail,
-} from "@devxcrew/react-ui/components/sidebar";
-import { cn } from "@devxcrew/react-ui/lib/utils";
+} from "@devxcrew/ui/components/sidebar";
+import { cn } from "@devxcrew/ui/lib/utils";
 import { TopologyMarker, TopologyRegion } from "../../features/interface-topology";
 
 import { NavigationSection } from "./mdi-sidebar-navigation";

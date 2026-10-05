@@ -1,5 +1,24 @@
 # Verification evidence
 
+## Verified release evidence - 2026-10-05
+
+61 tests, strict types, 122 public exports and the 326-file archive passed.
+Published @devxcrew/ui 0.2.0 under MIT. Registry integrity matches the prepared archive.
+Implementation changes contain package-name substitutions only.
+Two generated registry apps passed full verification, live SQLite and cross-app session denial.
+The isolated UIUX gallery passed registry installation and clean-install verification.
+Browser interaction, SMTP and production acceptance remain separate.
+
+
+## Package name migration - 2026-10-05
+
+- [x] Authenticated cloud governance and npm account verified.
+- [x] User authorized public MIT publication and existing app migration.
+- [x] Rename @devxcrew/react-ui to @devxcrew/ui 0.2.0, preserving public APIs.
+- [x] Verify the release archive and registry integrity after publication.
+- [x] Verify all six existing apps, the gallery and two fresh registry apps.
+- [x] Commit and push the reviewed release.
+
 ## Independent source review - 2026-10-04
 
 - Passed authenticated live MCP retrieval for UI, UIUX and Cxsun before inspection.

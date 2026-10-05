@@ -1,10 +1,10 @@
 import { LogOutIcon, UserRoundIcon, XIcon } from "lucide-react";
 import { useState } from "react";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@devxcrew/react-ui/components/avatar";
-import { Button } from "@devxcrew/react-ui/components/button";
-import { Popover, PopoverContent, PopoverTrigger } from "@devxcrew/react-ui/components/popover";
-import { cn } from "@devxcrew/react-ui/lib/utils";
+import { Avatar, AvatarFallback, AvatarImage } from "@devxcrew/ui/components/avatar";
+import { Button } from "@devxcrew/ui/components/button";
+import { Popover, PopoverContent, PopoverTrigger } from "@devxcrew/ui/components/popover";
+import { cn } from "@devxcrew/ui/lib/utils";
 import { TopologyMarker } from "../../features/interface-topology";
 
 import { mdiTopMenuButtonClassName } from "./mdi-top-menu-control";

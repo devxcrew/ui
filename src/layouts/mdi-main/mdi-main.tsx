@@ -1,9 +1,9 @@
 import { BoxesIcon, FilesIcon, LayoutDashboardIcon, MessageSquareIcon } from "lucide-react";
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
 
-import { SidebarInset, SidebarProvider } from "@devxcrew/react-ui/components/sidebar";
-import { Toaster } from "@devxcrew/react-ui/components/toast";
-import { cn } from "@devxcrew/react-ui/lib/utils";
+import { SidebarInset, SidebarProvider } from "@devxcrew/ui/components/sidebar";
+import { Toaster } from "@devxcrew/ui/components/toast";
+import { cn } from "@devxcrew/ui/lib/utils";
 import {
   TopologyInspectionControl,
   TopologyInspector,

@@ -1,4 +1,4 @@
-import { Separator } from '@devxcrew/react-ui/components/separator'
+import { Separator } from '@devxcrew/ui/components/separator'
 import type { ReactNode } from 'react'
 import { TopologyMarker } from '../../features/interface-topology'
 import { useMdiTopology } from './mdi-topology'

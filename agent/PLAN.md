@@ -1,5 +1,14 @@
 # Shared UI foundation plan
 
+## Current release - 2026-10-05
+
+Public MIT package: @devxcrew/ui 0.2.0. Publication and registry integrity verification passed.
+61 tests, strict types, 122 public exports and the 326-file archive passed.
+Two generated registry apps and the isolated UIUX registry gallery passed.
+All six existing apps passed owner verification and package checks. Source delivery follows final review.
+Historical checkpoints below retain their original package names and results.
+
+
 Source: projects/cxsun/agent/PLAN.md, sections 3, 6, 7, 8.3 and 9.
 Owner: shared/ui. Public package: @devxcrew/react-ui.
 Keep the master phase and task IDs. Do not restart numbering.

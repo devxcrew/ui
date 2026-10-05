@@ -4,7 +4,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@devxcrew/react-ui/components/collapsible'
+} from '@devxcrew/ui/components/collapsible'
 import {
   SidebarGroup,
   SidebarGroupContent,
@@ -16,8 +16,8 @@ import {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-} from '@devxcrew/react-ui/components/sidebar'
-import { cn } from '@devxcrew/react-ui/lib/utils'
+} from '@devxcrew/ui/components/sidebar'
+import { cn } from '@devxcrew/ui/lib/utils'
 
 import type { MdiNavigationItem, MdiNavigationSection } from './mdi-types'
 import { usePersistentOpenState } from './use-mdi-sidebar-state'

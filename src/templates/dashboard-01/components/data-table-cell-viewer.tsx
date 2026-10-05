@@ -1,12 +1,12 @@
 import { Area, AreaChart, CartesianGrid, XAxis } from 'recharts'
 
-import { Button } from '@devxcrew/react-ui/components/button'
+import { Button } from '@devxcrew/ui/components/button'
 import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
   type ChartConfig,
-} from '@devxcrew/react-ui/components/chart'
+} from '@devxcrew/ui/components/chart'
 import {
   Drawer,
   DrawerClose,
@@ -16,9 +16,9 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from '@devxcrew/react-ui/components/drawer'
-import { Input } from '@devxcrew/react-ui/components/input'
-import { Label } from '@devxcrew/react-ui/components/label'
+} from '@devxcrew/ui/components/drawer'
+import { Input } from '@devxcrew/ui/components/input'
+import { Label } from '@devxcrew/ui/components/label'
 import {
   Select,
   SelectContent,
@@ -26,9 +26,9 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@devxcrew/react-ui/components/select'
-import { Separator } from '@devxcrew/react-ui/components/separator'
-import { useIsMobile } from '@devxcrew/react-ui/hooks/use-mobile'
+} from '@devxcrew/ui/components/select'
+import { Separator } from '@devxcrew/ui/components/separator'
+import { useIsMobile } from '@devxcrew/ui/hooks/use-mobile'
 import { TrendingUpIcon } from 'lucide-react'
 
 import type { DataTableItem } from './data-table'

@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { Button } from '@devxcrew/react-ui/components/button';
+import { Button } from '@devxcrew/ui/components/button';
 import {
   Select,
   SelectContent,
@@ -7,9 +7,9 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@devxcrew/react-ui/components/select';
-import { cn } from '@devxcrew/react-ui/lib/utils';
-import { TopologyRegion, type InterfaceTopologyController } from '@devxcrew/react-ui/features/interface-topology';
+} from '@devxcrew/ui/components/select';
+import { cn } from '@devxcrew/ui/lib/utils';
+import { TopologyRegion, type InterfaceTopologyController } from '@devxcrew/ui/features/interface-topology';
 
 export function DataTablePagination({
   className,

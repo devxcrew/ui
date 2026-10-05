@@ -2,7 +2,7 @@ import * as React from "react";
 import { CheckIcon } from "lucide-react";
 import { cn } from "../lib/utils";
 
-import { Button } from "@devxcrew/react-ui/components/button";
+import { Button } from "@devxcrew/ui/components/button";
 
 type QuestionnaireButtonProps = React.ComponentProps<typeof Button>;
 

@@ -1,5 +1,5 @@
 import { CheckCircle2, Minus, XCircle } from 'lucide-react'
-import { cn } from '@devxcrew/react-ui/lib/utils'
+import { cn } from '@devxcrew/ui/lib/utils'
 
 export type DataTableStatusTone = 'danger' | 'info' | 'neutral' | 'success' | 'warning'
 

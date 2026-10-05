@@ -1,6 +1,6 @@
 import { SlidersHorizontalIcon } from 'lucide-react';
 
-import { Button } from '@devxcrew/react-ui/components/button';
+import { Button } from '@devxcrew/ui/components/button';
 import {
   Popover,
   PopoverContent,
@@ -8,8 +8,8 @@ import {
   PopoverHeader,
   PopoverTitle,
   PopoverTrigger,
-} from '@devxcrew/react-ui/components/popover';
-import { cn } from '@devxcrew/react-ui/lib/utils';
+} from '@devxcrew/ui/components/popover';
+import { cn } from '@devxcrew/ui/lib/utils';
 import { TopologyMarker, TopologyRegion } from '../../features/interface-topology';
 import { ThemeSelector } from '../../theme';
 import { useMdiTopology } from './mdi-topology';

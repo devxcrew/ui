@@ -1,13 +1,13 @@
 import type { ReactNode } from 'react'
 import { Ellipsis } from 'lucide-react'
-import { Button } from '@devxcrew/react-ui/components/button'
+import { Button } from '@devxcrew/ui/components/button'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@devxcrew/react-ui/components/dropdown-menu'
+} from '@devxcrew/ui/components/dropdown-menu'
 
 export type DataTableRowAction = {
   disabled?: boolean

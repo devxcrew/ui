@@ -1,7 +1,7 @@
 import { SearchIcon } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
-import { Button } from '@devxcrew/react-ui/components/button'
+import { Button } from '@devxcrew/ui/components/button'
 import {
   Command,
   CommandEmpty,
@@ -9,16 +9,16 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@devxcrew/react-ui/components/command'
+} from '@devxcrew/ui/components/command'
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from '@devxcrew/react-ui/components/dialog'
-import { Kbd } from '@devxcrew/react-ui/components/kbd'
-import { cn } from '@devxcrew/react-ui/lib/utils'
+} from '@devxcrew/ui/components/dialog'
+import { Kbd } from '@devxcrew/ui/components/kbd'
+import { cn } from '@devxcrew/ui/lib/utils'
 import { TopologyMarker } from '../../features/interface-topology'
 
 import { mdiTopMenuSurfaceClassName } from './mdi-top-menu-control'

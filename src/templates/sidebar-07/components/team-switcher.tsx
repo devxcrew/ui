@@ -11,13 +11,13 @@ import {
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
-} from '@devxcrew/react-ui/components/dropdown-menu'
+} from '@devxcrew/ui/components/dropdown-menu'
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from '@devxcrew/react-ui/components/sidebar'
+} from '@devxcrew/ui/components/sidebar'
 import { ChevronsUpDownIcon, PlusIcon } from 'lucide-react'
 
 export function TeamSwitcher({

@@ -1,5 +1,9 @@
 # ui
 
+Public MIT package: `@devxcrew/ui@0.2.0`.
+Use the same public exports under this package name.
+
+
 Own reusable React components, blocks, layouts, themes, and public exports.
 
 Applications consume the public package exports. Optional sibling sources support workspace development.

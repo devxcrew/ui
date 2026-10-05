@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from '@devxcrew/react-ui/components/avatar'
+import { Avatar, AvatarFallback, AvatarImage } from '@devxcrew/ui/components/avatar'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -7,13 +7,13 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@devxcrew/react-ui/components/dropdown-menu'
+} from '@devxcrew/ui/components/dropdown-menu'
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from '@devxcrew/react-ui/components/sidebar'
+} from '@devxcrew/ui/components/sidebar'
 import {
   EllipsisVerticalIcon,
   CircleUserRoundIcon,

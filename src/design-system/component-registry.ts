@@ -126,7 +126,7 @@ function createComponentDefinition(category: DesignSystemCategory, name: string)
     defaultVariantId: resolveDefaultVariantId(id),
     id,
     name,
-    source: `@devxcrew/react-ui/components/${id}`,
+    source: `@devxcrew/ui/components/${id}`,
     variants: componentVariants[id] ?? [defaultVariant],
   };
 }

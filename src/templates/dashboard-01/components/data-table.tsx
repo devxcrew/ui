@@ -39,9 +39,9 @@ import {
 import { toast } from 'sonner'
 import { z } from 'zod'
 
-import { Badge } from '@devxcrew/react-ui/components/badge'
-import { Button } from '@devxcrew/react-ui/components/button'
-import { Checkbox } from '@devxcrew/react-ui/components/checkbox'
+import { Badge } from '@devxcrew/ui/components/badge'
+import { Button } from '@devxcrew/ui/components/button'
+import { Checkbox } from '@devxcrew/ui/components/checkbox'
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -49,9 +49,9 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@devxcrew/react-ui/components/dropdown-menu'
-import { Input } from '@devxcrew/react-ui/components/input'
-import { Label } from '@devxcrew/react-ui/components/label'
+} from '@devxcrew/ui/components/dropdown-menu'
+import { Input } from '@devxcrew/ui/components/input'
+import { Label } from '@devxcrew/ui/components/label'
 import {
   Select,
   SelectContent,
@@ -59,7 +59,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@devxcrew/react-ui/components/select'
+} from '@devxcrew/ui/components/select'
 import {
   Table,
   TableBody,
@@ -67,8 +67,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@devxcrew/react-ui/components/table'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@devxcrew/react-ui/components/tabs'
+} from '@devxcrew/ui/components/table'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@devxcrew/ui/components/tabs'
 import {
   GripVerticalIcon,
   CircleCheckIcon,

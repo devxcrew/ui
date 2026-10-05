@@ -49,7 +49,7 @@ export function validateDesignSystemManifest(manifest: readonly DesignSystemAsse
     if (!asset.variants.some(({ id }) => id === asset.defaultVariantId)) {
       errors.push(`Missing default variant: ${key}:${asset.defaultVariantId}`);
     }
-    if (!asset.source.startsWith("@devxcrew/react-ui/")) errors.push(`Invalid package source: ${key}`);
+    if (!asset.source.startsWith("@devxcrew/ui/")) errors.push(`Invalid package source: ${key}`);
     if (!asset.ownership.packageOwns.length || !asset.ownership.applicationOwns.length) {
       errors.push(`Incomplete ownership contract: ${key}`);
     }

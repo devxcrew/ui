@@ -1,14 +1,14 @@
 import { useMemo, useState } from "react";
 import { MoreHorizontal, Plus } from "lucide-react";
-import { Button } from "@devxcrew/react-ui/components/button";
-import { Input } from "@devxcrew/react-ui/components/input";
+import { Button } from "@devxcrew/ui/components/button";
+import { Input } from "@devxcrew/ui/components/input";
 import {
   createDataTableColumnHelper,
   DataTableBlock,
   DataTableRowActions,
   type DataTableColumn,
-} from "@devxcrew/react-ui/blocks/table";
-import type { InterfaceTopologyController } from "@devxcrew/react-ui/features/interface-topology";
+} from "@devxcrew/ui/blocks/table";
+import type { InterfaceTopologyController } from "@devxcrew/ui/features/interface-topology";
 import type { MasterField, MasterRecord, MasterValue } from "./types";
 
 export type MasterListProps = {

@@ -6,7 +6,7 @@ export const designSystemTemplates: readonly DesignSystemTemplateDefinition[] = 
     description: "A configurable master-data list with table and card views plus a generated record form.",
     id: "master-list",
     name: "Master List",
-    source: "@devxcrew/react-ui/blocks/master-list",
+    source: "@devxcrew/ui/blocks/master-list",
     variants: [
       { id: "v1", name: "Master List v1", description: "A table-first master list page." },
       { id: "v2", name: "Master List v2", description: "A dense Desk-style list with quick filters and row activity." },
@@ -23,7 +23,7 @@ export const designSystemTemplates: readonly DesignSystemTemplateDefinition[] = 
     description: "A compact status system with semantic colors and a check mark for record states.",
     id: "status",
     name: "Status Template",
-    source: "@devxcrew/react-ui/components/status-badge",
+    source: "@devxcrew/ui/components/status-badge",
     variants: [{ id: "default", name: "Status", description: "Standard colored status badges for record lists." }],
   },
 ];

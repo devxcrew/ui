@@ -1,5 +1,14 @@
 # Current task
 
+## Package name migration - 2026-10-05
+
+- [x] Authenticated cloud governance and npm account verified.
+- [x] User authorized public MIT publication and existing app migration.
+- [x] Rename @devxcrew/react-ui to @devxcrew/ui 0.2.0, preserving public APIs.
+- [x] Verify the release archive and registry integrity after publication.
+- [x] Verify all six existing apps, the gallery and two fresh registry apps.
+- [x] Commit and push the reviewed release.
+
 ## Completion wave - 2026-10-04
 
 - [x] Publish the approved MIT package 0.2.0 and verify its registry checksum against the prepared archive.
